@@ -1,0 +1,47 @@
+# Python related
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+.env.*
+
+# Pytest
+.pytest_cache/
+
+# Logs and debug
+*.log
+logs/
+debug.log
+
+# FastAPI specific
+instance/
+app/static/
+
+# IDE related
+.vscode/
+.idea/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+
+# MacOS specific
+.DS_Store
+
+# Docker related
+docker-compose.override.yml
